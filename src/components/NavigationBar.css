@@ -1,0 +1,46 @@
+.NavigationBar {
+  font-family: Oswald, sans-serif;
+  box-shadow: 0 1px 3px #ddd;
+  box-sizing: border-box;
+}
+.NavigationBar .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavigationBar .nav-bar .group-nav {
+  display: flex;
+}
+.button-effect {
+  background-color: #fff;
+  color: #606060;
+  transition: .3s;
+}
+.button-effect:hover {
+  color: #fff;
+  background-color: #58bcb3;
+}
+.icon-effect {
+  color: #606060;
+  transition: .3s;
+}
+.icon-effect:hover {
+  color: #58bcb3;
+}
+.button-nav {
+  display: block;
+  padding: 15px 20px;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+.button-nav:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.group-nav .icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
